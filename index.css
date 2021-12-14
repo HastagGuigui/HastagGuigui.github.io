@@ -72,11 +72,11 @@ h1,h2{
     font-size: 15px;
     padding: 1%;
     cursor: pointer;
+    transition: background-color 0.5s ease;
 }
 
 .buttonLink:hover {
     background-color: #00bfff;
-    transition: background-color 0.5s ease;
 }
 
 ul.ytVideos {
@@ -91,7 +91,7 @@ ul.ytVideos > li {
 }
 
 ul.presentationLines > li {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .myStuff {
@@ -104,10 +104,31 @@ ul.presentationLines > li {
     display: inline-block;
     padding-right: 20px;
     min-width: 30%;
+    width: 30% !important;
     height: 150px;
 }
 
 .myStuff > li > button {
+    min-width: 100%;
+    min-height: 100%;
+    background-image: none;
+    mix-blend-mode: add;
+}
+
+.socialMedia {
+    padding-left: 0px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.socialMedia > li {
+    display: inline-block;
+    padding-right: 20px;
+    min-width: 22%;
+    height: 75px;
+}
+
+.socialMedia > li > button {
     min-width: 100%;
     min-height: 100%;
     background-image: none;
@@ -126,4 +147,8 @@ ul.presentationLines > li {
     position:absolute;
     top: 0px;
     left: 0px;
+}
+
+.altFont {
+    font-family: "Press Start 2P", sans-serif;
 }
