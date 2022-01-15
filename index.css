@@ -95,9 +95,12 @@ ul.presentationLines > li {
 }
 
 .myStuff {
-    padding-left: 0px;
+    margin: 0;
+    padding: 0;
     text-align: center;
     list-style-type:none;
+    display: flex;
+    justify-content: center;
 }
 
 .myStuff > li {
