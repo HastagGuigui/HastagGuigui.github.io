@@ -111,6 +111,10 @@ ul.presentationLines > li {
     height: 150px;
 }
 
+.myStuff > div > button {
+    height: max-content;
+}
+
 .myStuff > li > button {
     min-width: 100%;
     min-height: 100%;
